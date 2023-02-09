@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2D1724E3-EF2C-4A84-B434-811A1DACB189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKP.Presentation", "MKP.Presentation\MKP.Presentation.csproj", "{93DCF228-0CBD-4A80-9165-1038BE58A5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93DCF228-0CBD-4A80-9165-1038BE58A5B8} = {2D1724E3-EF2C-4A84-B434-811A1DACB189}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DCF228-0CBD-4A80-9165-1038BE58A5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DCF228-0CBD-4A80-9165-1038BE58A5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DCF228-0CBD-4A80-9165-1038BE58A5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DCF228-0CBD-4A80-9165-1038BE58A5B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
